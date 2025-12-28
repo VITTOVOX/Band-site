@@ -1,0 +1,9 @@
+<h1>The Neon Echoes</h1>
+<p>Official Band Website</p>
+
+<h2>Band Members</h2>
+<ul>
+  {% for member in members %}
+    <li>{{ member.name }} – {{ member.role }}</li>
+  {% endfor %}
+</ul>
